@@ -3,7 +3,7 @@ import image from "../uploads/yash.jpg";
 import { Card, Button } from "flowbite-react";
 import lost from "../uploads/lost_and_found.png";
 import task from "../uploads/Task_Manager.png";
-import resume from "../uploads/Het-CV.pdf";
+import resume from "../uploads/yash_resume_new (9).pdf";
 
 const Test = () => {
   const [istheme, Setistheme] = useState("dark-theme");
