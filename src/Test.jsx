@@ -4,6 +4,7 @@ import { Card, Button } from "flowbite-react";
 import lost from "../uploads/lost_and_found.png";
 import task from "../uploads/Task_Manager.png";
 import resume from "../uploads/yash_resume_new (9).pdf";
+import blog from "../uploads/blog.png";
 
 const Test = () => {
   const [istheme, Setistheme] = useState("dark-theme");
@@ -236,6 +237,16 @@ const Test = () => {
           <a href="https://task-manager-2-o.vercel.app/">
             {" "}
             <Card imgSrc={task} className="">
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                 Keeper note website
+              </h5>
+            </Card>
+          </a>
+        </div>
+        <div className="max-w-sm ml-[10%] transition duration-200 h-[50%]  rounded-2xl mt-5 hover:shadow-[#ff3c78] hover:shadow-lg hover:scale-110 hover:cursor-pointer">
+          <a href="https://task-manager-2-o.vercel.app/">
+            {" "}
+            <Card imgSrc={blog} className="">
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                  Keeper note website
               </h5>
